@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Felicidades Profe Daniela!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <header>
+            <h1>¡Felicidades, Dory!</h1>
+            <h2><b>🥳Toca las tarjetas para descubrir tus sorpresas 🎓✏️</b></h2>
+        </header>
+
+        <main class="zona-cards">
+            
+            <!-- TARJETA 1 -->
+            <div class="flashcard">
+                <div class="card-interior">
+                    <div class="card-frontal fondo-azul">
+                        <span class="emoji-grande">👩‍🏫</span>
+                        <h3>Misión Cumplida</h3>
+                        <p class="instruccion">Haz clic para abrir</p>
+                    </div>
+                    <div class="card-trasera">
+                        <h4>¡Oficialmente Maestra!</h4>
+                        <p>Años de esfuerzo, exámenes y prácticas se resumen en este momento. ¡Qué orgullo verte cumplir tu sueño!</p>
+                        <span class="decoracion-baja">📚✨</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA 2 -->
+            <div class="flashcard">
+                <div class="card-interior">
+                    <div class="card-frontal fondo-verde">
+                        <span class="emoji-grande">🎓</span>
+                        <h3>Tu Vocación</h3>
+                        <p class="instruccion">Haz clic para abrir</p>
+                    </div>
+                    <div class="card-trasera">
+                        <h4>La mejor profesora</h4>
+                        <p>Tu paciencia, creatividad y amor por los niños te van a convertir en esa maestra que deja huella para siempre.</p>
+                        <span class="decoracion-baja">❤️👧👦</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA 3 -->
+            <div class="flashcard">
+                <div class="card-interior">
+                    <div class="card-frontal fondo-naranja">
+                        <span class="emoji-grande">🚀</span>
+                        <h3>El Futuro</h3>
+                        <p class="instruccion">Haz clic para abrir</p>
+                    </div>
+                    <div class="card-trasera">
+                        <h4>¡A cambiar el mundo!</h4>
+                        <p>Hoy empieza la aventura más bonita de todas: guiar el futuro de muchos peques. ¡A por todas, Dory!</p>
+                        <span class="decoracion-baja">🌟🗺️</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Script rápido–que el giro funcione al hacer clic -->
+    <script>
+        document.querySelectorAll('.flashcard').forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.toggle('girada');
+            });
+        });
+    </script>
+</body>
+</html>
