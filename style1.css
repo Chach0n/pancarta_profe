@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f0fdf4; /* Un fondo verde menta muy suave, estilo escolar */
+    background: #f0fdf4; 
     font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 /* Contenedor de la pancarta */
 .pancarta {
     background: #ffffff;
-    border: 8px dashed #4ade80; /* Borde de líneas discontinuas tipo manualidad */
+    border: 8px dashed #4ade80; 
     border-radius: 20px;
     padding: 60px 40px;
     max-width: 900px;
@@ -26,7 +26,6 @@ body {
     text-align: center;
     position: relative;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 /* Iconos flotantes en las esquinas */
@@ -41,7 +40,7 @@ body {
 /* Textos */
 .intro {
     font-family: 'Fredoka One', cursive;
-    color: #f59e0b; /* Dorado/Naranja festivo */
+    color: #f59e0b; 
     font-size: 1.5rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -49,14 +48,14 @@ body {
 
 h1 {
     font-family: 'Fredoka One', cursive;
-    color: #1d4ed8; /* Azul brillante y alegre */
+    color: #1d4ed8; 
     font-size: 3.5rem;
     margin-bottom: 15px;
     text-shadow: 2px 2px 0px #dbeafe;
 }
 
 h2 {
-    color: #059669; /* Verde pizarra */
+    color: #059669; 
     font-size: 2rem;
     margin-bottom: 30px;
 }
@@ -82,7 +81,7 @@ h2 {
 
 .boton-sorpresa {
     display: inline-block;
-    background-color: #f59e0b; /* Color naranja escolar/festivo */
+    background-color: #f59e0b; 
     color: white;
     text-decoration: none;
     font-family: 'Fredoka One', cursive;
@@ -94,8 +93,8 @@ h2 {
 }
 
 .boton-sorpresa:hover {
-    background-color: #d97706; /* Se oscurece al pasar el cursor */
-    transform: translateY(-3px); /* Efecto flotante */
+    background-color: #d97706; 
+    transform: translateY(-3px); 
     box-shadow: 0 8px 20px rgba(245, 158, 11, 0.6);
 }
 
@@ -109,6 +108,5 @@ h2 {
     h2 { font-size: 1.4rem; }
     .decoracion-izq, .decoracion-der { position: static; display: inline-block; margin-bottom: 10px; }
     .pancarta { padding: 30px 20px; }
-    /* Añade esto aquí abajo para el móvil */
-    .boton-sorpresa { font-size: 1.1rem; padding: 12px 25px; }
+    .boton-sorpresa { font-size: 1.1rem; padding: 12px 25px; } 
 }
